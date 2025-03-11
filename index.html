@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dolly Negra</title>
+		<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+		<link href="css/colores.css" rel="stylesheet" type="text/css">
+		<script src="https://kit.fontawesome.com/de6caaf084.js" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo-blanco.png" alt="">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Inicio
+									<span class="sr-only">(current)</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Nosotros</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Menú</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Galería</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Reserva</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Ubícanos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div id="inicio" clas="portada">
+				<div class="container">
+					<div class="portada" style = "display: none;">
+						<h1>Inicio</h1>
+					</div>
+				</div>
+			</div>
+			<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+			  <ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+				  <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+			  </ol>
+			  <div class="carousel-inner" role="listbox">
+				  <div class="carousel-item active">
+					  <img class="d-block mx-auto" src="images/slider-1.png" alt="First slide">
+					  <div class="carousel-caption">
+						  <h2>SORBO A SORBO, PLACER REFRESCANTE</h2>
+						  <p class="p-negro">Disfruta de la exquisita frescura de un frappuccino, con cada sorbo experimentarás un puro placer que refresca tus sentidos y te transporta a un mundo de satisfacción inigualable.</p>
+						  <a href="#" class="btn btn-boton-1">Ver menú</a>
+					  </div>
+				  </div>
+				  <div class="carousel-item">
+					  <img class="d-block mx-auto" src="images/slider-2.png" alt="Second slide">
+					  <div class="carousel-caption">
+						  <h2 class="derecha">SATISFACCIÓN EN CADA BOCADO</h2>
+						  <p class="p-negro-derecha">Cada mordisco a nuestra hamburguesa es una experiencia única, donde el sabor se convierte en una fuente inagotable de satisfacción, deleite y placer culinario inigualable.</p>
+						  <a href="#" class="btn btn-boton-1 local-derecha">Ver menú</a>
+					  </div>
+				  </div>
+				  <div class="carousel-item">
+					  <img class="d-block mx-auto" src="images/slider-3.png" alt="Third slide">
+					  <div class="carousel-caption">
+						  <h2>ALITAS BBQ, SABOR QUE ENAMORA</h2>
+						  <p class="p-negro">Las alitas de barbacoa deslumbran con su sabor irresistible, una experiencia culinaria que cautiva los sentidos y te lleva a un mundo de delicias inigualables.</p>
+						  <a href="#" class="btn btn-boton-1">Ver menú</a>
+					  </div>
+				  </div>
+				  <div class="carousel-item">
+					  <img class="d-block mx-auto" src="images/slider-4.png" alt="Third slide">
+					  <div class="carousel-caption">
+						  <h2 class="derecha">SABOR EN COPA, DELEITE ASEGURADO</h2>
+						  <p class="p-negro-derecha">Sumérgete en el placer de un helado en copa, donde cada cucharada te lleva a un mundo de delicias, asegurando satisfacción y felicidad en cada bocado.</p>
+						  <a href="#" class="btn btn-boton-1 local-derecha">Ver menú</a>
+					  </div>
+				  </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true">&nbsp;</span>
+				  <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span> 
+			  </a> 
+		  </div>
+		</header>
+		<section id="servicios">
+		  <div class="fondo">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col-11">
+						  <h3>Nuestra Especialidad</h3>
+					  </div>
+					  <div class="col-1 text-right">
+						  <img src="images/especialidad.png" alt=""/>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="container text-center">
+			  <div id="slider-servicios" class="row"> 
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frappe Mocca</h4>
+					  <img src="images/servicio-1.png" alt="">
+					  <p class="p-blanco-1">Una bebida helada que mezcla café y chocolate, ofreciéndote un sabor refrescante y delicioso con toques de dulzura.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Alitas Barbacue</h4>
+					  <img src="images/servicio-2.png" alt="">
+					  <p class="p-blanco-1">Trozos de pollo crujientes y sabrosos bañados en una salsa de barbacoa dulce y picante. Sin duda una delicia de plato para muchos.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frozen Maracuyá</h4>
+					  <img src="images/servicio-3.png" alt="">
+					  <p class="p-blanco-1">Una bebida congelada y refrescante con el sabor tropical y ácido de la maracuyá, perfecta para calmar la sed en días calurosos.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>La UPN, Manyas?</h4>
+					  <img src="images/servicio-4.png" alt="">
+					  <p class="p-blanco-1">La mejor hamburguesa, con doble carne, queso, huevo, tocino, papas fritas, lechuga, tomate y mayonesa casera.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Chococrispis</h4>
+					  <img src="images/servicio-5.png" alt="">
+					  <p class="p-blanco-1">Un helado de coco y chocolate con pedazos de galleta oreo, bañado con dulce de leche para darle sabor a tu día.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Lomo Saltado</h4>
+					  <img src="images/servicio-6.png" alt="">
+					  <p class="p-blanco-1">Mezcla de tiernos trozos de carne de res, cebolla, tomate y papas fritas; creando una fusión única de sabores.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frappe Mocca</h4>
+					  <img src="images/servicio-1.png" alt="">
+					  <p class="p-blanco-1">Una bebida helada que mezcla café y chocolate, ofreciéndote un sabor refrescante y delicioso con toques de dulzura.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Alitas Barbacue</h4>
+					  <img src="images/servicio-2.png" alt="">
+					  <p class="p-blanco-1">Trozos de pollo crujientes y sabrosos bañados en una salsa de barbacoa dulce y picante. Sin duda una delicia de plato para muchos.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frozen Maracuyá</h4>
+					  <img src="images/servicio-3.png" alt="">
+					  <p class="p-blanco-1">Una bebida congelada y refrescante con el sabor tropical y ácido de la maracuyá, perfecta para calmar la sed en días calurosos.</p>
+				  </div>
+			  </div>
+			  <a href="#" class="btn btn-boton-2">Ver más</a>
+			</div>
+		</section>
+		<section id="historia">
+          <div class="fondo">
+            <div class="container">
+              <div class="row">
+                <div class="col-11">
+                  <h3>Conoce a Dolly</h3>
+                  </div>
+                <div class="col-1 text-right">
+                  <img src="images/historia.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+          </div>
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-6">
+					  <img src="images/lugar.png" alt="">
+				  </div>
+				  <div class="col-md-6">
+					  <p class="p-blanco-1">Fundada el 7 de abril de 2018 en Trujillo, "Dolly Negra" quién en un principio comenzó como "Oveja Negra", una cafetería y heladería. Posteriormente, evolucionó hacia una oferta más amplia que incluye almuerzos. Su nombre actual refleja esta transformación, convirtiéndose en un lugar emblemático en Trujillo donde se disfruta de café, helados y deliciosos almuerzos.</p>
+					  <a href="#">
+						  <p class="enlace">Leer más</p>
+					  </a>
+				  </div> 
+			  </div>
+		  </div>
+	  </section>
+		<section id="galeria">
+          <div class="fondo">
+            <div class="container">
+              <div class="row">
+                <div class="col-11">
+                  <h3>Galería</h3>
+                  </div>
+                <div class="col-1 text-right">
+                  <img src="images/galería.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+          </div>
+		  <div class="container text-center">
+			  <div class="row">
+			    <div class="col-md-4">
+					<img src="images/galeria-1.png" alt="">
+					<img src="images/galeria-2.png" alt="">
+				</div>
+			    <div class="col-md-4">
+					<img src="images/galeria-3.png" alt="">
+					<img src="images/galeria-4.png" alt="">
+				</div>
+			    <div class="col-md-4">
+					<img src="images/galeria-5.png" alt="">
+					<img src="images/galeria-6.png" alt="">
+				</div>
+			  </div>
+			  <a href="#" class="btn btn-boton-2">Ver más</a>
+		  </div>
+	  </section>
+		<section id="menu">
+          <div class="fondo">
+            <div class="container">
+              <div class="row">
+                <div class="col-11">
+                  <h3>Menú</h3>
+                  </div>
+                <div class="col-1 text-right">
+                  <img src="images/menú.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+          </div>
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frap Mocca</h4>
+					  <p class="p-blanco-2">Una mezcla de chocolate y café, coronada con crema batida y virutas de chocolate.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>La Nacional</h4>
+					  <p class="p-blanco-2">Nuestra hamburguesa clásica con carne, queso, lechuga y tomate.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Pollo a la plancha</h4>
+					  <p class="p-blanco-2">Filete de pollo sazonado a la plancha con verduras y una selección de salsas.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frap Coffee</h4>
+					  <p class="p-blanco-2">Café espresso cremoso con leche y hielo, con la posibilidad de añadir crema batida.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>La UCB</h4>
+					  <p class="p-blanco-2">Hamburguesa ahumada con carne, huevo, queso, lechuga y tomate.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Chuleta de cerdo</h4>
+					  <p class="p-blanco-2">Una chuleta de cerdo a la parrilla, servida con tu elección de guarnición y salsas.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frap Caramelo</h4>
+					  <p class="p-blanco-2">Café endulzado con caramelo y leche, con la opción de crema batida y extra de caramelo.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>La Chupao</h4>
+					  <p class="p-blanco-2">Hamburguesa bien rellena de carne, pollo, queso, lechuga y tomate.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Lomo fino saltado</h4>
+					  <p class="p-blanco-2">Trozos de lomo de res, salteados con cebolla, pimientos, arros y papas fritas.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Frap Manjar</h4>
+					  <p class="p-blanco-2">Una combinación de caramelo, café y, adornada con crema batida y caramelo líquido.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>La UPN, Manyas?</h4>
+					  <p class="p-blanco-2">La mejor de todas con doble carne, queso, huevo, tocino, papas fritas, lechuga y tomate.</p>
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					  <h4>Lomo fino a lo pobre</h4>
+					  <p class="p-blanco-2">Porción de lomo de res, con papas fritas, arroz, un huevo frito y plátanos maduros.</p>
+				  </div>
+			    <div class="col-12 text-center">
+					  <a href="#" class="btn btn-boton-2">Ver más</a>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+		<section id="comentarios">
+          <div class="fondo">
+            <div class="container">
+              <div class="row">
+                <div class="col-11">
+                  <h3>Comentarios</h3>
+                  </div>
+                <div class="col-1 text-right">
+                  <img src="images/comentarios.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+          </div>
+		  <div class="container text-center">
+		    <div id="slider-comentarios" class="row">
+			    <div class="col-md-6">
+					<h4>Carlos Rodríguez Sánchez</h4>
+					<img src="images/comentario-1.png" alt="">
+					<p class="p-blanco-1">Dolly Negra es mi lugar favorito para helados. Su variedad de sabores es increíble, y la opción de almuerzos rápidos es muy conveniente. El ambiente es acogedor y el personal amable.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>María González Pérez</h4>
+					<img src="images/comentario-2.png" alt="">
+					<p class="p-blanco-1">Dolly Negra es un lugar acogedor con personal amigable, lo que garantiza una experiencia placentera con sus bebidas deliciosas y almuerzos excpecionales. Sin duda todo es una delicia ahí.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>José Anticona Lopez</h4>
+					<img src="images/comentario-3.png" alt="">
+					<p class="p-blanco-1">El personal de Dolly Negra siempre ofrece un servicio excepcional. Su amabilidad y eficiencia hacen que cada visita sea agradable. La calidad de los productos y la limpieza del lugar son impresionantes.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>Mariela Rojas Villacorta</h4>
+					<img src="images/comentario-4.png" alt="">
+					<p class="p-blanco-1">El restaurante Dolly Negra es mi lugar de encuentro favorito para una buena conversación. Su ambiente acogedor y la amplia gama de bebidas calientes hacen que cada reunión sea especial.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>Marcelo Prada Espinoza</h4>
+					<img src="images/comentario-5.png" alt="">
+					<p class="p-blanco-1">El servicio de entrega de Dolly Negra es confiable y rápido. Sus entregas siempre llegan a tiempo y en perfecto estado. La variedad de opciones en su menú hace que sea mi elección para disfrutar en casa.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>Lesly García Leyva</h4>
+					<img src="images/comentario-6.png" alt="">
+					<p class="p-blanco-1">El restaurante Dolly Negra es mi elección favorita para disfrutar de la auténtica cocina peruana. Su menú diverso y sabroso, junto con el ambiente acogedor, crea una experiencia culinaria excepcional.</p>
+				</div>
+				<div class="col-md-6">
+					<h4>Carlos Rodríguez Sánchez</h4>
+					<img src="images/comentario-1.png" alt="">
+					<p class="p-blanco-1">Dolly Negra es mi lugar favorito para helados. Su variedad de sabores es increíble, y la opción de almuerzos rápidos es muy conveniente. El ambiente es acogedor y el personal amable.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>María González Pérez</h4>
+					<img src="images/comentario-2.png" alt="">
+					<p class="p-blanco-1">Dolly Negra es un lugar acogedor con personal amigable, lo que garantiza una experiencia placentera con sus bebidas deliciosas y almuerzos excpecionales. Sin duda todo es una delicia ahí.</p>
+				</div>
+			    <div class="col-md-6">
+					<h4>José Anticona Lopez</h4>
+					<img src="images/comentario-3.png" alt="">
+					<p class="p-blanco-1">El personal de Dolly Negra siempre ofrece un servicio excepcional. Su amabilidad y eficiencia hacen que cada visita sea agradable. La calidad de los productos y la limpieza del lugar son impresionantes.</p>
+				</div>
+		    </div>
+          </div>
+	  </section>
+		<section id="reserva">
+          <div class="fondo">
+            <div class="container">
+              <div class="row">
+                <div class="col-11">
+                  <h3>Reserva</h3>
+                  </div>
+                <div class="col-1 text-right">
+                  <img src="images/reserva.png" alt=""/>
+                  </div>
+                </div>
+            </div>
+          </div>
+		  <div class="container">
+		    <p class="p-blanco-1">Ingresa los siguientes datos para poder realizar tu reserva</p>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <form action="index.html" method="post">
+						  <div class="row">
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="nombres">Nombres</label>
+									  <input type="text" required="required" class="form-control" id="nombres" placeholder="Nombres">
+									  <div class="icono"> 
+										  <i class="fa-regular fa-user"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="apellidos">Apellidos</label>
+									  <input type="text" required="required" class="form-control" id="apellidos" placeholder="Apellidos">
+									  <div class="icono">
+										  <i class="fa-regular fa-user"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="telefono">Teléfono</label>
+									  <input type="tel" required="required" class="form-control" id="telefono" placeholder="Teléfono">
+									  <div class="icono">
+										  <i class="fa-solid fa-phone"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="dni">DNI</label>
+									  <input type="text" required="required" class="form-control" id="dni" placeholder="DNI">
+									  <div class="icono">
+										  <i class="fa-regular fa-address-card"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="correo">Correo</label>
+									  <input type="email" required="required" class="form-control" id="correo" placeholder="Correo Electrónico">
+									  <div class="icono">
+										  <i class="fa-regular fa-envelope"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="asistentes">Asistentes</label>
+									  <input type="number" required="required" class="form-control" id="asistentes" placeholder="Número de Asistentes" max="20" min="1">
+									  <div class="icono">
+										  <i class="fa-regular fa-user"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="fecha">Fecha</label>
+									  <input type="date" required="required" class="form-control" id="fecha" max="2024-12-29" min="2023-10-29">
+									  <div class="icono">
+										  <i class="fa-regular fa-calendar"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-lg-6 col-md-12">
+								  <div class="form-group">
+									  <label for="hora">Hora</label>
+									  <input type="time" required="required" class="form-control" id="hora" max="23:00:00" min="08:00:00">
+									  <div class="icono">
+										  <i class="fa-regular fa-clock"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12">
+								  <div class="form-group">
+									  <label class="mensaje" for="mensajes">Mensaje</label>
+									  <textarea></textarea>
+									  <div class="icono">
+										  <i class="fa-regular fa-comment"></i>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12">
+								  <div class="form-group">
+									  <input type="checkbox" required="required" id="terminos"> 
+									  <label class="check" for="terminos">Aceptar términos y condiciones</label>
+								  </div>
+							  </div>
+							  <div class="col-12" align="center">
+								  <input class="btn btn-boton-2" type="submit" value="Enviar">
+							  </div>
+						  </div>
+					  </form>
+				  </div>
+				  <div class="col-md-6">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0295113582!2d-79.02089032615018!3d-8.098472680998034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d77ae559223%3A0x3885c8defd373713!2sDolly%20Negra%20Cafetar%C3%ADa%20%26%20Helader%C3%ADa!5e0!3m2!1ses-419!2spe!4v1698442426218!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			  </div>
+		  </div>
+	  </section>
+		<section id="contacto">
+		  <div class="container text-center">
+			  <h3 class="h3-naranja">¡Ponte en contacto con nosotros!</h3>
+			  <div class="row">
+				  <div class="col-lg-2 col-md-1">
+				  </div>
+				  <div class="col-lg-8 col-md-10">
+					  <p class="p-blanco-1">¡Estamos aquí para ti! Si tienes alguna consulta, duda o comentario sobre nuestros servicios en Dolly Negra, no dudes en contactarnos. Estamos ansiosos por escucharte y brindarte la mejor atención. Tu opinión es muy importante para nosotros.</p>
+				  </div>
+				  <div class="col-lg-2 col-md-1">
+				  </div>
+			  </div>
+			  <a href="index.html" class="btn btn-boton-2">Contactar</a>
+		  </div>
+	  </section>
+		<footer>
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-lg-3 col-md-6 text-center">
+					  <a href="index.html">
+						  <img src="images/logo-blanco-footer.png" alt="">
+					  </a>
+				  </div>
+				  <div class="col-lg-3 col-md-6">
+					  <h6 class="text-center">Información</h6>
+					  <ul class="informacion">
+						  <li>
+							  <a href="#"><p class="p-blanco-1">Menú</p></a>
+						  </li>
+						  <li>
+							  <a href="#"><p class="p-blanco-1">Nosotros</p></a>
+						  </li>
+						  <li>
+							  <a href="#"><p class="p-blanco-1">Galería</p></a>
+						  </li>
+						  <li>
+							  <a href="#"><p class="p-blanco-1">Reserva</p></a>
+						  </li>
+					  </ul>
+				  </div>
+				  <div class="col-lg-3 col-md-6">
+					  <h6 class="text-center">Contáctanos</h6>
+					  <ul class="contactanos">
+						  <li>
+							  <a href="tel:+51924462353" target="_self">
+								  <i id="celular" class="fa-solid fa-phone"></i>
+								  <p class="p-blanco-1">+51 924 462 353</p>
+							  </a>
+						  </li>
+						  <li>
+							  <a href="mailto:dollynegra.gmail.com" target="_blank">
+								  <i id="gmail" class="fa-regular fa-envelope"></i>
+								  <p class="p-blanco-1">dollynegra.gmail.com</p>
+							  </a>
+						  </li>
+						  <li>
+							  <a href="https://maps.app.goo.gl/xX2dtHP7qXffnHoZ7" target="_blank">
+								  <i id="ubicacion" class="fa-solid fa-location-dot"></i>
+								  <p class="p-blanco-1">Trujillo - La Libertad</p>
+							  </a>
+						  </li>
+					  </ul>
+				  </div>
+				  <div class="col-lg-3 col-md-6">
+					  <h6 class="text-center">Redes Sociales</h6>
+					  <ul class="redes">
+						  <li>
+							  <a href="https://www.facebook.com/Dollynegratrujillo" target="_blank">
+								  <i id="facebook" class="fa-brands fa-facebook redes"></i>
+								  <p class="p-blanco-1">Facebook Dolly</p>
+							  </a>
+						  </li>
+						  <li>
+							  <a href="https://www.instagram.com/dollynegracafeteria/" target="_blank">
+								  <i id="instagram" class="fa-brands fa-instagram redes"></i>
+								  <p class="p-blanco-1">Instagram Dolly</p>
+							  </a>
+						  </li>
+						  <li>
+							  <a href="https://wa.me/51960974258" target="_blank">
+								  <i id="whatsapp" class="fa-brands fa-whatsapp redes"></i>
+								  <p class="p-blanco-1">WhatsApp Dolly</p>
+							  </a>
+						  </li>
+					  </ul>
+				  </div>
+				  <div class="col-md-6 text-center">
+					  <p class="p-blanco-1">© 2023 Dolly Negra. Todos los derechos reservados</p>
+				  </div>
+				  <div class="col-md-6 text-center">
+					  <p class="p-blanco-1">Web desarrollado por DLuxStudio</p>
+				  </div>
+			  </div>
+		  </div>
+	  </footer>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.min.js"></script> 
+		<script src="js/bootstrap-4.4.1.js"></script>
+	</body>
+</html>
